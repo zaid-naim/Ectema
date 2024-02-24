@@ -1,0 +1,16 @@
+{
+    "name": "ectema/php-client",
+    "description": "Ectema.com PHP Client",
+    "homepage": "https://github.com/zaid-naim/Ectema-PHP-Client",
+    "autoload": {
+        "psr-4": {
+            "EctemaApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "license": "MIT"
+}
